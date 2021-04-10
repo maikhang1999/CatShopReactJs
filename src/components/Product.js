@@ -28,6 +28,7 @@ export default function Product({product}){
                     >
                       {inCart?(<p className="text-capitalize mb-0 " disabled>in inCart</p>):(<i className="fas fa-cart-plus"/>)}
                     </button>
+                    <span className="text-center card-footer text-uppercase"><strong>{title}</strong></span>
                   </div>
               );
             }}

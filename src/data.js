@@ -8,7 +8,7 @@ export const storeProducts = [
     company: "Hi Lạp",
     info:
       "Mèo Aegean có xu hướng thông minh và hoạt bát, với kỹ năng giao tiếp tốt. Chúng thường thân thiện với mọi người và có thể là những con mèo tuyệt vời cho các gia đình có trẻ em.",
-    inCart: true,
+    inCart: false,
     count: 0,
     total: 0
   },

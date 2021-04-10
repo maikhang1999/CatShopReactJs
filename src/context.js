@@ -41,6 +41,7 @@ function ProductProvider({children}) {
     setProducts([...tempProducts]);
     setCart([...cart,product_item]);
     setDetailProduct({product_item});
+    console.log(cart);
   }
   function openModal(id){
     const product_item = getItem(id);
