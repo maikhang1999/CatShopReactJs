@@ -5,7 +5,7 @@ export const storeProducts = [
     title: "Mèo Aegean Hi Lạp",
     img: "img/cat-1.png",
     price: 10,
-    company: "Hi Lạp",
+    company: "Greek",
     info:
       "Mèo Aegean có xu hướng thông minh và hoạt bát, với kỹ năng giao tiếp tốt. Chúng thường thân thiện với mọi người và có thể là những con mèo tuyệt vời cho các gia đình có trẻ em.",
     inCart: true,
@@ -17,7 +17,7 @@ export const storeProducts = [
     title: "Mèo Mỹ đuôi cộc",
     img: "img/cat-2.png",
     price: 16,
-    company: "Mỹ",
+    company: "America",
     info:
       "Những người yêu thích Bobtail ở Mỹ nói rằng thay vào đó bạn nên xem xét con mèo của chúng. chúng là một người yêu với trái tim vàng, người hết lòng vì người dân của mình, đi theo chúng, thích chơi đùa, đi bộ đẹp trên dây xích (tất nhiên là sau khi đào tạo) và luôn tươi cười chào đón khách..",
     inCart: false,
@@ -29,7 +29,7 @@ export const storeProducts = [
     title: "Mèo Mỹ Tai Xoắn",
     img: "img/cat-3.png",
     price: 8,
-    company: "Mỹ",
+    company: "America",
     info:
       "Mèo Mỹ tai xoắn có đôi tai cong đặc biệt tạo thành vòng cung duyên dáng, tạo cho cô ấy một biểu cảm lanh lợi, lanh lợi. Ngoài đôi tai, mèo Mỹ tai xoắn còn được biết đến với bộ lông phẳng, mượt, có thể dài hoặc ngắn.",
     inCart: false,
@@ -41,7 +41,7 @@ export const storeProducts = [
     title: "Mèo Mỹ Lông ngắn",
     img: "img/cat-4.png",
     price: 18,
-    company: "Mỹ",
+    company: "America",
     info:
       "Mèo Mỹ lông ngắn dễ thích nghi và tốt bụng vẫn giữ được khả năng săn mồi, nhưng ngày nay, chúng có nhiều khả năng trở thành một người bạn đồng hành trong gia đình, một công việc mà chúng vượt trội.",
     inCart: false,
@@ -53,7 +53,7 @@ export const storeProducts = [
     title: "Mèo Mỹ Lông Sợi",
     img: "img/cat-5.png",
     price: 24,
-    company: "Mỹ",
+    company: "America",
     info:
       "Mèo Mỹ lông sợi được phân biệt với các giống khác bởi bộ lông dày và rậm, được mô tả là có cảm giác giống như len thép hoặc len cừu. Có một số mức độ héo, thay đổi từ nhọn đến xoăn, với các sợi lông riêng lẻ được uốn, nối hoặc uốn cong.",
     inCart: false,
@@ -103,7 +103,7 @@ export const detailProduct_Item = {
     title: "Mèo Aegean Hi Lạp",
     img: "img/cat-1.png",
     price: 10,
-    company: "Hi Lạp",
+    company: "Greek",
     info:
       "Mèo Aegean có xu hướng thông minh và hoạt bát, với kỹ năng giao tiếp tốt. Chúng thường thân thiện với mọi người và có thể là những con mèo tuyệt vời cho các gia đình có trẻ em.",
     inCart: true,
@@ -113,7 +113,7 @@ export const detailProduct_Item = {
 export const InfoOfShop = {
   name:"Cat Boutique",
   img:'img/shop-img.png',
-  address:"104 Thượng Đình, Thanh Xuân, Hà Nội",
-  phone:" 094 201 24 68",
+  address:"D9, Hanoi university of Science and Technology",
+  phone:" 012 345 6789",
   time:'Mở cửa:7h - 20h',
 }

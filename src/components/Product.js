@@ -3,19 +3,23 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { ProductConsumer } from "../context";
 import PropTypes from 'prop-types';
+
 export default function Product({product}){
   const {id,title,img,price,inCart} = product;
      return(
        <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-3 my-3">
           <div className="card">
             <ProductConsumer>
-           
+
             {value => {
               return (
-                  <div className="img-container my-5"
-                  onClick={()=>value.handleDetail(id)}
+                <div className="img-container my-5"
+                  onClick={() => {
+                    value.handleDetail(id);
+                    value.openModal(id);
+                  }}
                   >
-                    <Link to ='/details'>
+                    <Link to ='/'>
                       <img src ={img} alt='detail product' className="card-img-top"/>
                     </Link>
                     <button

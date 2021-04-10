@@ -8,22 +8,22 @@ export default class Contact extends Component {
     const {name,img,address,phone,time} = InfoOfShop;
     return (
       <div className="container py-5">
-     
+
       <div className="row">
         <div className="col-10 mx-auto text-center text-slanted text-blue my-5">
           <h1>Thông tin liên hệ tới Cửa hàng</h1>
         </div>
       </div>
-      
+
       <div className="row">
                 <div className="col-10 mx-auto col-md-6 my-3">
                   <img src={img} className="img-fluid" alt="" />
                 </div>
-               
+
                 <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
-                  
+
                   <h4 className="text-title text-uppercase text-muted mt-3 mb-2">
-                    Tên Cửa hàng : <span className="text-uppercase">{name}</span>
+                    <span className="text-uppercase">{name}</span>
                   </h4>
                   <h4 className="text-blue">
                     <strong>
@@ -36,10 +36,10 @@ export default class Contact extends Component {
                   <p className="text-muted lead">{phone}</p>
                   <hr/>
                   <p className="text-muted lead">{time}</p>
-                  
+
                 </div>
               </div>
-      
+
     </div>
     );
   }

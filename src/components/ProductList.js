@@ -5,12 +5,14 @@ import { storeProducts } from "../data";
 import styled from "styled-components";
 import {ProductConsumer} from '../context';
 import { Link } from 'react-router-dom';
+
+
 function ProductList(){
     return (
       <React.Fragment>
     <ProductWrapper className="py-5">
         <div className="container">
-          <Title name='Cat' title="Shop"/>
+          <Title name='Cat' title="List"/>
           <div className='row'>
             <ProductConsumer>
               {value =>{

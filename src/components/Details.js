@@ -32,34 +32,34 @@ export default class Details extends Component {
                 </div>
                 {/* cat info */}
                 <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
-                  <h1>Loại Mèo : {title}</h1>
+                  <h1>Cat's Name : {title}</h1>
                   <h4 className="text-title text-uppercase text-muted mt-3 mb-2">
-                    Sinh Ra : <span className="text-uppercase">{company}</span>
+                    Origin : <span className="text-uppercase">{company}</span>
                   </h4>
                   <h4 className="text-blue">
                     <strong>
-                      Giá : <span>$</span>
+                      Price : <span>$</span>
                       {price}
                     </strong>
                   </h4>
                   <p className="text-capitalize font-weight-bold mt-3 mb-0">
-                    Thông tin thêm:
+                    Information:
                   </p>
                   <p className="text-muted lead">{info}</p>
                   {/* buttons */}
                   <div>
                     <Link to="/">
-                      <ButtonContainer>Trở Lại Cat Shop</ButtonContainer>
+                      <ButtonContainer>Back to cat list</ButtonContainer>
                     </Link>
                     <ButtonContainer
                       cart
                       disabled={inCart ? true : false}
                       onClick={() => {
                         value.addToCart(id);
-                        value.openModal(id);
+                        value.handleDetail(id);
                       }}
                     >
-                      {inCart ? "Trong giỏ" : "Thêm vào giỏ"}
+                      {inCart ? "Added in your favorite list" : "Add to your favorite list"}
                     </ButtonContainer>
                   </div>
                 </div>
